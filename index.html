@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   <title>Frontend Mentor | Product preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -20,7 +20,7 @@
   </style>
 </head>
 <body class="bg-[#f2ebe3] flex flex-col items-center justify-center gap-8 text-[#6b718a]">
-  <div class="overflow-hidden rounded-lg bg-white">
+  <div class="overflow-hidden rounded-lg bg-white flex flex-col md:flex-row md:w-[650px] h-fit w-[70%]">
     <div class="w-full md:1/2 h-1/2 h-full">
       <img src="./images/image-product-desktop.jpg" class="hidden md:block w-full h-full">
       <img src="./images/image-product-mobile.jpg" class="md:hidden block w-full h-full">
